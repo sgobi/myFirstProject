@@ -1,0 +1,25 @@
+
+
+{% load static %}
+
+
+<html>
+<head>
+
+    <title>{% block title %}My Django Project{% endblock %}</title>
+
+    <!-- Link to Bootstrap CSS -->
+    <link href="{% static 'bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Bootstrap JS and Bundle (for optional JavaScript plugins) -->
+    <script src="{% static 'bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Content of the page -->
+        {% block content %}{% endblock %}
+    </div>
+
+</body>
+</html>

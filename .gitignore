@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.dylib
+*.pyo
+*.pdb
+*.log
+
+# Django
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.db-journal
+*.log
+
+# Node.js
+node_modules/
+
+# React (if you plan to integrate React.js)
+build/
+coverage/
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Django migrations
+migrations/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+.env/
+
+# Docker
+docker-compose.override.yml
+*.log
+# Ignore Bootstrap css/JS files
+static/bootstrap/*
+
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+tempeless
+test.spy  # Likely a typo or unwanted file
+
+# Node.js
+node_modules/
+package-lock.json  # Only exclude if you don't want to track dependencies
+
+# IDE/Editor
+.vscode/
+.idea/
+.static/
+.myenv/
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Project-specific unwanted files/dirs
+myspy
+pyremite
+mypython
+test.txt
